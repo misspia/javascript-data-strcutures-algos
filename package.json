@@ -1,0 +1,29 @@
+{
+  "name": "javascript-data-strcutures-algos",
+  "version": "1.0.0",
+  "description": "Data structures and algorithms implemented in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misspia/javascript-data-strcutures-algos.git"
+  },
+  "author": "misspia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misspia/javascript-data-strcutures-algos/issues"
+  },
+  "homepage": "https://github.com/misspia/javascript-data-strcutures-algos#readme",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7"
+  }
+}
